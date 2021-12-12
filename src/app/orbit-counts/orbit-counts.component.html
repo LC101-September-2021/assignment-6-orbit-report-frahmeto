@@ -2,7 +2,7 @@
 <div class="counts">
 	<!-- <div>Total: <span class="counts-total">NaN</span></div> -->
 	<!-- TODO 4: add logic to count number of satellites displayed -->
-	<div *ngFor="let category of categories">{{category}}: <span>{{typeCount(category)}}</span></div>
+	<div *ngFor="let type of types">{{type}}: <span>{{countByType(type)}}</span></div>
 
 </div>
 
